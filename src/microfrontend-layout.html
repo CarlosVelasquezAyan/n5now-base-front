@@ -1,18 +1,5 @@
 <single-spa-router>
-  <nav class="navbar fixed-top">
-    <span style="margin-left: 40px"> Challenge Técnico </span>
-
-    <button
-      class="btn"
-      style="
-        margin-right: 40px;
-        background-color: rgb(33, 12, 96);
-        color: white;
-      "
-    >
-      <i class="bi-translate"></i>
-    </button>
-  </nav>
+  <application name="@vuejs-app/n5now-front-navbar"></application>
   <main>
     <route default>
       <div class="container text-center">
@@ -27,12 +14,5 @@
       </div>
     </route>
   </main>
-  <footer
-    class="footer mt-auto py-3 bg-light"
-    style="position: absolute; bottom: 0; width: 100%"
-  >
-    <div class="container text-center">
-      <span class="text-muted">Made with ♥️ by Carlos Velásquez Ayán</span>
-    </div>
-  </footer>
+  <application name="@vuejs-app/n5now-front-footer"></application>
 </single-spa-router>
