@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/n5now-root-config.ts"],
+  "files": ["src/n5now-root-config.js"],
   "compilerOptions": {
     "declarationDir": "dist"
   },
